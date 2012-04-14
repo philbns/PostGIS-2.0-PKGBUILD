@@ -1,0 +1,3 @@
+A temporary PKGBUILD file for PostGIS 2.0 to be used until 2.0 hits the official Arch repositories.  
+
+This build includes the GUI shapefile loader.  If you don't want it or don't need it edit --with-gui out of the ./configure statement and remove gtk2 from the dependencies.
