@@ -6,26 +6,13 @@
 # Maintainer: Philbns <http://boringnerdystuff.wordpress.com>
 pkgname=postgis
 pkgver=2.0.0
-pkgrel=1
-epoch=
+pkgrel=2
 pkgdesc="Adds support for geographic objects to PostgreSQL"
 arch=('i686' 'x86_64')
 url="http://postgis.refractions.net/"
 license=('GPL')
-groups=()
 depends=('postgresql' 'geos' 'proj' 'gtk2')
-makedepends=()
-checkdepends=()
-optdepends=()
-provides=()
-conflicts=()
-replaces=()
-backup=()
-options=()
-install=
-changelog=
 source=(http://postgis.refractions.net/download/postgis-$pkgver.tar.gz)
-noextract=()
 md5sums=('639d2b5d6a7dc94ea2e60d6942a615bc') #generate with 'makepkg -g'
 build() {
   cd "$srcdir/$pkgname-$pkgver"
